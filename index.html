@@ -6,7 +6,17 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="#" />
+    <div id='container'>
+        <img id='flag' src="#" />
+        <label for='country'>Country Name:</label>
+        <input type='text' id='country' value='USA'>
+        <button onclick='getCountryInfo()'>Search</button>
+        <div >
+            <ol id='headlines'>
+            </ol>
+        </div>
+    </div>
 </body>
+<script src="API_KEY.js"></script>
 <script src="script.js"></script>
 </html>
